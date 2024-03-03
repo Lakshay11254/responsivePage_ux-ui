@@ -1,14 +1,11 @@
-import './App.css'
-
-function App() {
-
+import ButtonGradient from "./assets/svg/ButtonGradient";
+const App = () => {
   return (
     <>
-<div className='text-5xl text-sky-500'>
-  Hello World
-</div>
+      <h1 className="text-5xl text-sky-500">Hello World</h1>
+      <ButtonGradient />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
